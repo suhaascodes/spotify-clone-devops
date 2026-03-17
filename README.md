@@ -23,8 +23,10 @@ A responsive Spotify web player UI clone built using HTML and CSS, enhanced with
 - Continuous deployment via Netlify
 
 ▶️ Run Locally with Docker
+```bash
 docker build -t spotify-clone .
 docker run -d -p 8080:80 spotify-clone
+```
 
 Then open:
 http://localhost:8080
